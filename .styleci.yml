@@ -1,0 +1,20 @@
+php:
+  preset: laravel
+<<<<<<< HEAD
+  disabled:
+=======
+  enabled:
+    - alpha_ordered_imports
+  disabled:
+    - length_ordered_imports
+>>>>>>> Entah apa yang merasukiku
+    - unused_use
+  finder:
+    not-name:
+      - index.php
+      - server.php
+js:
+  finder:
+    not-name:
+      - webpack.mix.js
+css: true
